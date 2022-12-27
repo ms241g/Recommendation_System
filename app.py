@@ -4,8 +4,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import nltk
-
-#nltk.download('punkt', download_dir='/app/nltk_data/')
+nltk.download('punkt')
 
 app = Flask(__name__)
 
